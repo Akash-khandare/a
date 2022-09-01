@@ -24,7 +24,6 @@ spec:
       - name: jenkins-home
         emptyDir: { }     
  ---
- 
 apiVersion: v1
 kind: Service
 metadata:
