@@ -22,9 +22,7 @@ spec:
           mountPath: /var/jenkins_home
       volumes:
       - name: jenkins-home
-        emptyDir: { }
-        
-     
+        emptyDir: { }     
  ---
  
 apiVersion: v1
